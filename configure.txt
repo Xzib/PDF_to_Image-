@@ -1,0 +1,8 @@
+open terminal and go to the file directory 
+# unzip the OCR.zip file
+# install tesseract 
+# Copy poppler to C:\program files\
+# in terminal run the following commands
+#### conda env create -f environment.yml ###
+# start the environment using "conda activate OCR"
+# run command "python tkinter_widget_for_pdf.py" file 
