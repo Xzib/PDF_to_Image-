@@ -5,14 +5,12 @@ def pdf_to_imge(path):
     path = path + ".pdf"
         
     try:
-        images_from_path = convert_from_path(os.path.abspath(path))
+        images_from_path = convert_from_path(os.path.abspath(path),dpi=500)
         counter = 1
         os.chdir(r".\pdf_to_jpg")
         for image in images_from_path:
-            
-            image.save('page_'+str(counter)+".jpg")
+            image.save(str(counter)+'_page'+".jpg")
             counter += 1
-
     except:
         return "OOPS! Something went wrong.. Are you sure the file is present in the directory"
     else:
@@ -22,7 +20,7 @@ def pdf_to_imge(path):
     
 
 if __name__ == "__main__":
-    path = r"D:\Zohaib\Fivrr\pdf_to_image\PDF_to_Image-\file-example_PDF_1MB.pdf"
+    path = r"yale_vna"
     pdf_to_imge(path)
 
     
