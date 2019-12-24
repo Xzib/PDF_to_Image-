@@ -11,8 +11,10 @@ def pdf_to_imge(file_name):
         counter = 1
         os.chdir(r".\pdf_to_jpg")
         for image in images_from_path:
+            
             image.save(str(counter)+'_page'+".jpg")
             counter += 1
+
     except:
         return "OOPS! Something went wrong.. Are you sure the file is present in the directory"
     else:
