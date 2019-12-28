@@ -5,7 +5,7 @@ def highlight_text(highlight_val):
     import os
     import cv2
 
-    dir_path= r'.\pdf_to_jpg'
+    #dir_path= r'.\pdf_to_jpg'
     #os.chdir(dir_path)
     #vocab = ['land','  lease','acres']
     tessdata_dir_config = "--tessdata-dir 'C:\\Program Files\\Tesseract-OCR\\tessdata'"
