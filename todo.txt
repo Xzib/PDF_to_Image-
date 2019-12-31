@@ -1,3 +1,0 @@
-combine all jpegs of a document and convert them into one pdf file after ocr
-link files to posgresql
-make tkinter widget

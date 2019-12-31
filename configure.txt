@@ -5,4 +5,6 @@ open terminal and go to the file directory
 # in terminal run the following commands
 #### conda env create -f environment.yml ###
 # start the environment using "conda activate OCR"
-# run command "python tkinter_widget_for_pdf.py" file 
+# run command "python convert_pdf_to_image.py" file 
+# write the key_word you are looking for when asked by prompt
+After completion  open key_words.csv file to look at the ouput
